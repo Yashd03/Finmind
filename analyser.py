@@ -47,7 +47,7 @@ main_placeholder = st.empty()
 llm = ChatGoogleGenerativeAI(
     model="gemini-pro",
     temperature=0.7,
-    google_api_key=os.getenv("AIzaSyCqH_SI3gdZCbEt5Affl1dJxbCRSzPlUQ8")
+    google_api_key=os.getenv("your api key")
 )
 
 # Create a finance-focused prompt template
